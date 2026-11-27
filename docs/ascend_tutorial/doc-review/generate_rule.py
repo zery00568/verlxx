@@ -176,25 +176,19 @@ def main():
     rule_json = {
         "rules": [
             {
-                "path": "**/*.md",
+                "path": "docs/ascend_tutorial/**/*.md",
                 "rule": rule_text,
                 "merge_system_rule": False,
             },
             {
-                "path": "**/*.rst",
-                "rule": rule_text,
-                "merge_system_rule": False,
-            },
-            {
-                "path": "**/*.po",
+                "path": "docs/ascend_tutorial/**/*.rst",
                 "rule": rule_text,
                 "merge_system_rule": False,
             },
         ],
         "include": [
-            "**/*.md",
-            "**/*.rst",
-            "**/*.po",
+            "docs/ascend_tutorial/**/*.md",
+            "docs/ascend_tutorial/**/*.rst",
         ],
         # include is force-include (additive), not an allowlist — non-matching
         # files still fall through to OCR's built-in extension allowlist. To
