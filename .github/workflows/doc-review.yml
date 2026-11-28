@@ -8,6 +8,10 @@
 # 和评估标准文件，由 generate_rule.py 动态生成 OCR rule JSON。
 # 标准更新随上游仓库同步，无需手动维护本地规则文件。
 #
+# 规则溯源：rule prompt 内置「规则索引」（规则编号/检测项/规则文件路径），
+# 每条 review 反馈的 content 末尾必须附「违反规则」标注行，注明该问题
+# 违反的 doc-quality 检测规则（可多条），便于回溯命中标准。
+#
 # 触发方式（仅目标分支为 main 的 PR）：
 #   - PR 自动触发：opened / synchronize / reopened
 #   - 评论手动触发：/doc-review 或 @doc-review（目标分支非 main 时取消本次运行，状态为 Cancelled）
