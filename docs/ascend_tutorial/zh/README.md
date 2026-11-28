@@ -22,8 +22,7 @@ zh/
 
 ## 快速开始
 - [昇腾镜像说明](./get_start/dockerfile_build_guidance.rst) - 构建并使用昇腾环境的 Docker 镜像  
-- [昇腾安装指南](./get_start/install_guidance.rst) - 在昇腾 NPU 上自定义安装 verl                                                    
-- [昇腾快速上手说明](./get_start/quick_start.rst) - 快速上手在昇腾 NPU 上运行 verl
+- [昇腾安装指南](./get_start/install_guidance.rst) - 在昇腾 NPU 上自定义安装 verl
 
 ## 特性支持说明
 
@@ -55,7 +54,7 @@ zh/
 
 如果您在使用过程中遇到问题，欢迎通过以下方式获取帮助：
 
-1. 查看 [NPU 常见问题解答](./faq/faq.rst)
+1. 查看 [NPU 常见问题解答](./faq/fa1q.rst)
 2. 在 GitHub Issues 中提交问题
 3. 联系昇腾技术支持
 
