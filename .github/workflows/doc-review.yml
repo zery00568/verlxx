@@ -57,7 +57,7 @@ concurrency:
 
 on:
   pull_request_target:
-    types: [opened, synchronize, reopened]
+    types: [opened, reopened]
     branches: [main]
     paths:
       - 'docs/ascend_tutorial/**/*.md'
